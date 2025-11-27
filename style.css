@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url('imgs/sala-estar-moveis-confortaveis.webp');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.profile-photo {
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.main-tittle {
+    font-size: 100px;
+    line-height: 90px;
+}
+
+.subtittle {
+    font-size: 200px;
+}
+
+nav {
+    text-align: center;
+    background-color: #d48956;
+    padding: 10px;
+}
+
+nav a {
+    color: #e9dfd9;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+nav a:hover {
+    color: #8D6D58;
+}
+
+.box {
+    text-align: center;
+    padding: clamp(1rem, 5vw, 3rem);
+    color: #9f7756;
+}
+
+.box h2 {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.box-2 {
+    text-align: center;
+    padding: clamp(1rem, 5vw, 3rem);
+    background-color: #c38861;
+    color: #8f6543;
+    border-radius: 10px;
+}
+
+.box-2 h3 {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+/*produtos*/
+.Produtos {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.profile-photo-2 {
+    background: #f4f4f4;
+    padding: clamp(1rem, 3vw, 2rem);
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: #d48956;
+    margin: 9px;
+}
+
+.profile-photo-2:hover {
+    transform: translateY(-5px);
+}
